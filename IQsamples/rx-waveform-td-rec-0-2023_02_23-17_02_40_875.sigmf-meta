@@ -1,0 +1,75 @@
+{
+    "global": {
+        "core:author": "Abdo Gaber",
+        "core:datatype": "cf32_le",
+        "core:description": "Waveform: NR_FR1_DL_TDD_SISO_BW-20MHz_CC-1_SCS-30kHz_Mod-64QAM_OFDM_TM3.1",
+        "core:hw": "USRP X310",
+        "core:license": "MIT License",
+        "core:num_channels": 1,
+        "core:recorder": "Using NI RF Data Recording API: https://github.com/genesys-neu/ni-rf-data-recording-api",
+        "core:sample_rate": 30720000.0,
+        "core:sha512": "0e6331180f6f5ac4b2d7a0ec4734aa65467d212cdbaec3bf7973c631469b5adbdfe7cb766f4b5e842463233191776e5affab73448abd59ceea1c2458919cd516",
+        "core:version": "1.0.0"
+    },
+    "captures": [
+        {
+            "capture_details": {
+                "acquisition_bandwidth": 20000000.0,
+                "gain": 20.0
+            },
+            "core:datetime": "2023-02-23T16:02:40.893884Z",
+            "core:frequency": 3600000000.3434067,
+            "core:sample_start": 0
+        }
+    ],
+    "annotations": [
+        {
+            "core:freq_lower_edge": 3584640000.3434067,
+            "core:freq_upper_edge": 3615360000.3434067,
+            "core:label": "NR Generation",
+            "core:sample_count": 614400,
+            "core:sample_start": 0,
+            "num_tx_signals": 1,
+            "system_components:channel": {
+                "attenuation": 33
+            },
+            "system_components:receiver": {
+                "bandwidth": "160000000.0",
+                "clock_reference": "internal",
+                "hw_subtype": "UBX-160",
+                "manufacturer": "NI",
+                "seid": "30CA171"
+            },
+            "system_components:transmitter": {
+                "Tx_0": {
+                    "signal:detail": {
+                        "bandwidth": 20000000.0,
+                        "carrier_CC_index": "0",
+                        "frame_structure": "TDD",
+                        "frequency_range": "Range 1",
+                        "link_direction": "Downlink",
+                        "n_frames": "1",
+                        "pdsch:modulation": "Standard",
+                        "sampling_rate": 30720000.0,
+                        "ssb_config_set": "CaseB-3-up-to-6GHz",
+                        "ssb_periodicity": "5m",
+                        "standard": "NR Generation",
+                        "subcarrier_spacing": 30000.0,
+                        "test_model": "3GPP NR Generation-TM3.1"
+                    },
+                    "signal:emitter": {
+                        "bandwidth": "160000000.0",
+                        "clock_reference": "internal",
+                        "frequency": "3600000000.0",
+                        "gain_tx": "20",
+                        "hw": "USRP X310",
+                        "hw_subtype": "UBX-160",
+                        "manufacturer": "NI",
+                        "sample_rate": "30720000.0",
+                        "seid": "30F1628"
+                    }
+                }
+            }
+        }
+    ]
+}

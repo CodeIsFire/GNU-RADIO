@@ -1,5 +1,5 @@
 # GNU-RADIO
-#Startwith Report.pdf
+# Startwith Report.pdf
 Initial Technology Exploration Summary
 The project began by evaluating multiple 5G signal processing approaches, ultimately leading to the breakthrough discovery of OpenAirInterface5G as the optimal foundation.
 
